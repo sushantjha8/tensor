@@ -6,9 +6,14 @@ index.html
 	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
 
+
+
+
+<p>
 Once you load all the above three scripts, you can open up a new file named mobile-net.js that will have all the functionality needed to make Keras MobileNet model work in a web browser.
 
 The user interface that I made at the start of the tutorial has HTML, CSS and JavaScript code combined. We will look into model specific part instead of looking into every single line of code.
+</p>
 
 let model;
 async function loadModel() {
@@ -34,3 +39,6 @@ async function loadModel() {
   load_button.innerHTML = "Loaded Model";
   console.log("model loaded..");
 }
+#Tutorial
+
+https://gogul09.github.io/software/mobile-net-tensorflow-js
