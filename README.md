@@ -39,6 +39,9 @@ async function loadModel() {
   load_button.innerHTML = "Loaded Model";
   console.log("model loaded..");
 }
-#Tutorial
+
+<p>
+	<h1>
+#Tutorial</h1>
 
 https://gogul09.github.io/software/mobile-net-tensorflow-js
